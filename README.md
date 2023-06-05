@@ -1,65 +1,71 @@
-# Meal Planner App :plate_with_cutlery:
-[Try it here!](planmyplate.netlify.app/)
+# [Start Bootstrap - Freelancer](https://startbootstrap.com/template-overviews/freelancer/)
 
-# User Features
-## Homepage
-- Users can search for recipes from the home page. Filters can also be selected to specify diet exclusions, cuisine and meal type. 
-- Popular recipes section highlights popular search results. 
-- Random recipes section highlights random recipes from a number of popular search results.
-![](/public/readme/homepage.png)
+[Freelancer](http://startbootstrap.com/template-overviews/freelancer/) is a one page freelancer portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, and a working PHP contact form.
 
-## Search Results 
-- Options to display in list or tile mode
-- A maximum of 100 recipes are displayed at a time with 12 results per page using paginations due to the database size of the 3rd part API used, [Edamam](https://www.edamam.com/) which contains 2.3 million recipes. 
-![Search for recipes](/public/readme/search.gif)
-- Users can then click on the recipe to show recipe details. 
-    - As the API does not contain recipe method, a link is given to direct users to the original source. 
+## Preview
 
-## Member's Only Access
-- In order to access the "My Recipes" and "My Meal Plan" page users must sign up or log in. 
-- If users try clicking on the "Add to My Recipes" button on search results or recipes details page, they will be redirected to log in or sign up. 
-![Add recipes](/public/readme/add_recipe.gif)
+[![Freelancer Preview](https://startbootstrap.com/assets/img/templates/freelancer.jpg)](https://blackrockdigital.github.io/startbootstrap-freelancer/)
 
-## My Recipes Page
-- Shows all of the logged in user's saved recipes. 
-- Users can add recipes to meal plan from this page too. 
+**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-freelancer/)**
 
-## My Meal Plans Page 
-- Shows all of the logged in user's saved meal plans. 
-- Users can click on an individual meal plan to show the details of the meal plan. 
-    - The meal plan details page shows a planner with a column for each day of the week starting from Monday. 
-    - When recipes are added to the meal plan from either the search results page, recipe details page or "My Recipes" page it is put by default into the Monday column.
-    - Users can drag and drop recipes in the columns and across to different days. 
+## Status
 
-![Drag and drop recipes on the meal plans page](/public/readme/dnd.gif)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-freelancer/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/startbootstrap-freelancer.svg)](https://www.npmjs.com/package/startbootstrap-freelancer)
+[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-freelancer.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-freelancer)
+[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-freelancer/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-freelancer)
+[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-freelancer/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-freelancer?type=dev)
 
-## Profile Page
-- After signing up, the user will be taken to their profile page. The username is default to the username of their email. 
-- Profile photo and username can be changed on this page. 
+## Download and Installation
 
-## Planning 
+To begin using this template, choose one of the following options to get started:
+* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/freelancer/)
+* Install via npm: `npm i startbootstrap-freelancer`
+* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-freelancer.git`
+* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-freelancer)
 
-The vision was to create a full-stack app where users can search for recipes, save them and then create a meal planner for the week. 
+## Usage
 
-For this we would require using a 3rd party JSON API ([Edamam](https://www.edamam.com/)) to fetch recipes, create a database to store users, recipes and meal plans and implement drag and drop to our meal planner board so that uses can move recipes around. 
+### Basic Usage
 
-We created a [wireframe](https://whimsical.com/seir63-meal-planner-app-NqDdWC24RS4W12V1d8fYeM) to draw out our plans. 
+After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
 
-![](/public/readme/Wireframe.png)
+### Advanced Usage
 
-We used Trello, Whimsical, Slack and Zoom as collaboration tools to ensure effective communication across the team.
+After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
 
-# Tech Stack 
-- React
-- Firebase/ Firestore
-- React-Bootstrap
-- npm 
+#### Gulp Tasks
 
-# Libraries Used 
-- [react-router-dom](https://reactrouter.com/en/main) 
-- [react-beautiful-dnd](https://github.com/atlassian/react-beautiful-dnd) 
-- [uuid](https://www.npmjs.com/package/uuid)
-- [react-icons](https://react-icons.github.io/react-icons)
+- `gulp` the default task that builds everything
+- `gulp dev` browserSync opens the project in your default browser and live reloads when changes are made
+- `gulp sass` compiles SCSS files into CSS
+- `gulp minify-css` minifies the compiled CSS file
+- `gulp minify-js` minifies the themes JS file
+- `gulp copy` copies dependencies from node_modules to the vendor directory
 
-# Future Features to add 
-- Options to pick more than one filter on the search page
+## Bugs and Issues
+
+Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-freelancer/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/freelancer/).
+
+## Custom Builds
+
+You can hire Start Bootstrap to create a custom build of any template, or create something from scratch using Bootstrap. For more information, visit the **[custom design services page](https://startbootstrap.com/bootstrap-design-services/)**.
+
+## About
+
+Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+
+* https://startbootstrap.com
+* https://twitter.com/SBootstrap
+
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+
+* http://davidmiller.io
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
+
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+
+## Copyright and License
+
+Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.

@@ -13,7 +13,7 @@ const MainPage = () => {
     return (
         <>
             <div className={styles.mainPageWrapper}>
-                <h1 className={styles.mainPageText}>Take good care of your small pets</h1>
+                <h1 className={styles.mainPageText}>Cuida bien de tus mascotas pequeñas</h1>
 
                 <picture>
                     <source srcSet={(mobile1x, mobile2x)} media="(max-width: 767px)" type="image/png" />

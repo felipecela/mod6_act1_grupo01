@@ -193,7 +193,7 @@ const NoticesPage = () => {
 
     return (
         <div className={styles.container}>
-            <PageTitle text={'Find your favorite pet'} />
+            <PageTitle text={'Busca tu mascota favorita'} />
             <div className={styles.formWrapper}>
                 <SearchForm onSubmit={handleSubmit} onClear={handleClear} />
             </div>

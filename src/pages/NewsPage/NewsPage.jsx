@@ -53,7 +53,7 @@ const NewsPage = () => {
 
     return (
         <div className={styles.container}>
-            <PageTitle text={'Noticias'} />
+            <PageTitle text={'Last News'} />
             <div className={styles.formWrapper}>
                 <SearchForm onSubmit={searchNewsByInputWord} onClear={onClear} />
             </div>

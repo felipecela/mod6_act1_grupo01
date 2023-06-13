@@ -38,7 +38,7 @@ const NewsPage = () => {
         }
 
         if (!findOne) {
-            toast.warn('No such news!', {
+            toast.warn('No hay noticias!', {
                 position: 'top-right',
                 autoClose: 3000,
                 theme: 'colored',
@@ -53,7 +53,7 @@ const NewsPage = () => {
 
     return (
         <div className={styles.container}>
-            <PageTitle text={'Últimas noticias'} />
+            <PageTitle text={'Noticias'} />
             <div className={styles.formWrapper}>
                 <SearchForm onSubmit={searchNewsByInputWord} onClear={onClear} />
             </div>

@@ -59,7 +59,7 @@ const Userpage = () => {
             </div>
             <div>
                 <div className={styles.wrapAddPets}>
-                    <h2 className={styles.titlePets}>Mis mascotas:</h2>
+                    <h2 className={styles.titlePets}>Nuestras mascotas:</h2>
                     <Addpet />
                 </div>
                 <div className={styles.wrapPets}>

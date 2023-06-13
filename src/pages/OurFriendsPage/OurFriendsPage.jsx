@@ -7,7 +7,7 @@ import styles from './OurFriendsPage.module.scss';
 const OurFriendsPage = () => {
     return (
         <div className={styles.container}>
-            <PageTitle text={'Our friends'} />
+            <PageTitle text={'Nuestros amigos'} />
             <OurFriendsList />
         </div>
     );

@@ -13,6 +13,7 @@ const MainPage = () => {
     return (
         <>
             <div className={styles.mainPageWrapper}>
+
                 <h1 className={styles.mainPageText}>Cuida bien de tus mascotas</h1>
 
                 <picture>

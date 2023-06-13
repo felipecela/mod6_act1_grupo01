@@ -54,12 +54,12 @@ const Userpage = () => {
     return (
         <div className={styles.mainContainer}>
             <div className={styles.wrapUser}>
-                <h2 className={styles.title}>My information:</h2>
+                <h2 className={styles.title}>Nueastra información:</h2>
                 <UserCard />
             </div>
             <div>
                 <div className={styles.wrapAddPets}>
-                    <h2 className={styles.titlePets}>My pets:</h2>
+                    <h2 className={styles.titlePets}>Nuestras mascota:</h2>
                     <Addpet />
                 </div>
                 <div className={styles.wrapPets}>
